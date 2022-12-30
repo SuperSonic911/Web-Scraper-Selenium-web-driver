@@ -6,11 +6,15 @@ Scraping a web page involves fetching it and extracting from it. Fetching is the
 This application that I've built collects information about the solar radiance in each country, the direct normal irradiance.
 The purpose was to implement a database for one of my projects (Solar panel calculator). Which was my final project for cs50.
 ### How it works:
-The web driver is initialized and opens up the web page
-It looks for the search bar and inserts the name of the country using a list saved with in the files attached to the python script
-Searches for the country name and extracts the information in the units I preferred 
-Saves this information in a json file for ease of usage later in the project
-Repeats the same process for all the countries in the list
+1. The web driver is initialized and opens up the web page
+
+2. It looks for the search bar and inserts the name of the country using a list saved with in the files attached to the python script
+
+3. Searches for the country name and extracts the information in the units I preferred 
+
+4. Saves this information in a json file for ease of usage later in the project
+
+5. Repeats the same process for all the countries in the list
 
 
 
