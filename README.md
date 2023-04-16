@@ -5,6 +5,9 @@ Scraping a web page involves fetching it and extracting from it. Fetching is the
 
 This application that I've built collects information about the solar radiance in each country, the direct normal irradiance.
 The purpose was to implement a database for one of my projects (Solar panel calculator). Which was my final project for cs50.
+
+![Workbench](Screenshot_5.jpg "Workbench")
+
 ### How it works:
 1. The web driver is initialized and opens up the web page
 
